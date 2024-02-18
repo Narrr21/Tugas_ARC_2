@@ -1,0 +1,59 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    width: 100%;
+    background-color: whitesmoke;
+}
+header article{
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    border-style: dotted;
+    text-align: center;
+    padding-top: 10px;
+}
+section div{
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+section div p{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: white;
+}
+#social{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 40px;
+}
+#social div {
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    background-color: aqua;
+}
+#contact{
+    display: flex;
+    align-items: center;
+    border-style: dotted;
+}
+#contact div{
+    margin: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
