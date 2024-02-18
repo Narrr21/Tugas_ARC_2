@@ -1,10 +1,10 @@
 body{
-    background-color: skyblue;
+    background-color: #90e0ef;
     font-family: 'Times New Roman', Times, serif;
 }
 header{
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #2a9edd;
 }
 header article{
     text-align: center;
@@ -18,30 +18,29 @@ main{
     padding-top: 10px;
 }
 /* Memposisikan tiap poin di section about dan tugas */
-main section div{
+main section article{
     display: flex;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
+    border-style: solid;
+    margin-top: 10px;
+    border-color:  #064567;
 }
-main section div p{
+main section article:hover {
+    background-color: #2a9edd;
+    color: white;
+}
+main section article p{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-}
-#about div{
-    border-style: solid;
-    border-radius: 30px;
-    margin-top: 10px;
-}
-#tugas div{
-    border-style: solid;
-    border-radius: 30px;
-    margin-top: 10px;
+    width: 100%;
+    height: 20px;
 }
 footer{
-    background-color: white;
+    background-color: #2a9edd;
 }
 footer section div{
     display: flex;
@@ -68,10 +67,10 @@ footer section div{
     display: flex;
 }
 #contact div{
-    display: flex;
     border-style: solid;
     border-width: 3px;
-    border-color: skyblue;
+    border-color: #90e0ef;
+    border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 10px;
