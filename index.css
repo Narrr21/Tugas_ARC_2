@@ -17,27 +17,45 @@ main{
     text-align: center;
     padding-top: 10px;
 }
-section div{
+/* Memposisikan tiap poin di section about dan tugas */
+main section div{
     display: flex;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
 }
-section div p{
+main section div p{
     position: relative;
     margin-left: auto;
     margin-right: auto;
 }
+#about div{
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+#tugas div{
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 10px;
+}
 footer{
     background-color: white;
+}
+footer section div{
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
 }
 #social{
     text-align: center;
     display: flex;
     align-items: center;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 35%;
+    padding-right: 35%;
     padding-top: 40px;
 }
 #social div {
@@ -48,12 +66,16 @@ footer{
 }
 #contact{
     display: flex;
-    align-items: center;
-    border-style: dotted;
 }
 #contact div{
-    margin: 10px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blanchedalmond;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+#contact div p{
+    text-decoration: underline;
 }
