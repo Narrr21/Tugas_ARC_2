@@ -65,10 +65,24 @@ footer section div{
     padding-top: 40px;
 }
 #social div {
-    align-items: center;
-    width: 55px;
-    height: 55px;
-    background-color: aqua;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    padding-top: 8px;
+    border-radius: 10px;
+}
+#social div a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+#social div:hover{
+    background-color: black;
+}
+#social div a i:hover{
+    font-size: 2em;
+    color: #90e0ef;
+    opacity: 0.9;
 }
 #contact{
     display: flex;
@@ -87,3 +101,4 @@ footer section div{
     margin-left: auto;
     margin-right: auto;
 }
+
